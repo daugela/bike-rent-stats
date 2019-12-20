@@ -8,15 +8,12 @@ FILEPATH = "data.csv"
 
 
 ##### CSV File Format
-Station ID | Integer, representing the bike hire station. Valid values: 1-1,000.
---- | ---
-Bike ID | Integer, representing the bike itself. Valid values: 1-10,000.
---- | ---
-Arrival Datetime | Datetime in format YYYYMMDDThh:mm:ss. Representing the date/time the bike arrived at the station. It is empty if the bike was at this station at the start of the reporting period.
---- | ---
-Departure Datetime | Datetime in format YYYYMMDDThh:mm:ss. Representing the date/time the bike departed from the station. It is empty if the bike was at this station at the end of the reporting period.
-
-
+| Field  | Description |
+| ------------- | ------------- |
+| Station ID  | Integer, representing the bike hire station. Valid values: 1-1,000. |
+| Bike ID  | Integer, representing the bike itself. Valid values: 1-10,000.  |
+| Arrival Datetime  | Datetime in format YYYYMMDDThh:mm:ss. Representing the date/time the bike arrived at the station. It is empty if the bike was at this station at the start of the reporting period.  |
+| Departure Datetime  | Datetime in format YYYYMMDDThh:mm:ss. Representing the date/time the bike departed from the station. It is empty if the bike was at this station at the end of the reporting period.  |
 
 ##### Example Line 1:
 Bike 102 was docked (arrived) at station 22 at 2015-03-04 13:04 and was rented out again (departed) at 2015-03-04 13:25:32:  
